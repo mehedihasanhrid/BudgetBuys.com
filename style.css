@@ -132,6 +132,14 @@ body {
   text-shadow: 1.5px 1px rgba(0, 0, 0, 0.5);
 }
 
+#feature{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+}
+
 #feature .fe-box{
   width: 180px;
   text-align: center;
@@ -156,6 +164,10 @@ body {
   padding: 9px 8px 6px 8px;
   line-height: 1;
   border-radius: 4px;
-  color: #088178;
+  color: ;
   background-color: #fddde4;
+}
+
+#feature .fe-box:nth-child(2) h6{
+  background-color: #7ddc46;
 }
